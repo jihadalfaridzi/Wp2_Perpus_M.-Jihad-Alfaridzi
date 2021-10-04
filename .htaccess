@@ -1,4 +1,4 @@
-RewritEngine On
+RewriteEngine On
 RewriteCond %{REQUEST_FILANANE} !-f
 RewriteCond %{REQUEST_FILANANE} !-d
-RewirteRule ^(.*)$ index.php/$1 [L]
+RewriteRule ^(.*)$ index.php/$1 [L]
